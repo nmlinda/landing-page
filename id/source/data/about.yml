@@ -1,15 +1,23 @@
-title: "ABOUT THE COMPANY"
-subtitle: "Key features of our company"
+title: ABOUT THE QUIPPER
+subtitle: Key features of our quipper
 item:
-  - name: "Responsive"
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
-    icon: "fa fa-desktop"
-  - name: "Passion"
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
-    icon: "fa fa-heart"
-  - name: "Design"
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
-    icon: "fa fa-diamond"
-  - name: "Support"
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
-    icon: "fa fa-cog"
+  - desc: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore.
+    icon: fa fa-desktop
+    name: Responsive
+  - desc: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et doloree.
+    icon: fa fa-heart
+    name: Passion
+  - desc: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore.
+    icon: fa fa-diamond
+    name: Design
+  - desc: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore.
+    icon: fa fa-cog
+    name: Support
