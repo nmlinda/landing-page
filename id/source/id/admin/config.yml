@@ -11,6 +11,7 @@ collections:
       - name: about
         label: About
         file: data/about.yml
+        format: yaml-frontmatter
         fields:
           - label: Title
             name: title
@@ -25,4 +26,19 @@ collections:
             fields:
               - {label: Name, name: name, widget: string}
               - {label: Icon, name: icon, widget: string}
-              - {label: description, name: description, widget: text}
+              - {label: Desc, name: desc, widget: text}
+
+  - name: products
+    label: Products
+    files:
+      - label: Item
+        name: item
+        file: data/products.yml
+        fields:
+          - label: Product
+            name: prod_item
+            widget: list
+            allow_add: true
+            fields:
+              - {label: Name, name: name, required: true, widget: string}
+              - {label: Description, name: description, required: true, widget: text}
