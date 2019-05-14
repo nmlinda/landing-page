@@ -1,8 +1,8 @@
 backend:
   name: git-gateway
 
-media_folder: source/id/shared/images/uploads
-public_folder: id/shared/images/uploads
+media_folder: id/source/id/shared/images/uploads
+public_folder: id/source/id/shared/images/uploads
 
 collections:
   - name: content
