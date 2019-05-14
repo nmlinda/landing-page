@@ -10,7 +10,7 @@ collections:
     files:
       - name: about
         label: About
-        file: id/source/data/content/about.yml
+        file: id/data/content/about.yml
         fields:
           - label: Title
             name: title
@@ -28,7 +28,7 @@ collections:
               - {label: Description, name: desc, widget: text}
       - name: team
         label: Team
-        file: id/source/data/content/team.yml
+        file: id/data/content/team.yml
         fields:
           - label: Title
             name: title
