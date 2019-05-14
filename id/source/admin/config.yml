@@ -10,13 +10,13 @@ collections:
     files:
       - name: about
         label: About
-        file: data/about.yml
+        file: id/source/data/content/about.yml
         fields:
           - label: Title
             name: title
             widget: string
-          - label: Subtitle
-            name: subtitle
+          - label: Description
+            name: desc
             widget: string
           - label: Item
             name: item
@@ -25,4 +25,23 @@ collections:
             fields:
               - {label: Name, name: name, widget: string}
               - {label: Icon, name: icon, widget: string}
-              - {label: Desc, name: desc, widget: text}
+              - {label: Description, name: desc, widget: text}
+      - name: team
+        label: Team
+        file: id/source/data/content/team.yml
+        fields:
+          - label: Title
+            name: title
+            widget: string
+          - label: Description
+            name: desc
+            widget: string
+          - label: Item
+            name: item
+            widget: list
+            allow_add: true
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Img, name: img, widget: string}
+              - {label: Position, name: position, widget: string}
+              - {label: Description, name: desc, widget: text}

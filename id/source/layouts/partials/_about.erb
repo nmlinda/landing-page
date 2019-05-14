@@ -1,8 +1,8 @@
 <div class="w3-container" style="padding:128px 16px" id="about">
-  <h3 class="w3-center"> <% data.about.title %></h3>
-  <p class="w3-center w3-large"><% data.about.subtitle %></p>
+  <h3 class="w3-center"> <%= data.content.about.title %></h3>
+  <p class="w3-center w3-large"><%= data.content.about.desc %></p>
   <div class="w3-row-padding w3-center" style="margin-top:64px">
-    <% data.about.item.each do |item| %>
+    <% data.content.about.item.each do |item| %>
     <div class="w3-quarter">
       <i class="<%= item.icon %> w3-margin-bottom w3-jumbo w3-center"></i>
       <p class="w3-large"><%= item.name %></p>
