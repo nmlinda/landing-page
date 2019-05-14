@@ -11,7 +11,6 @@ collections:
       - name: about
         label: About
         file: data/about.yml
-        format: yaml-frontmatter
         fields:
           - label: Title
             name: title
@@ -56,3 +55,26 @@ collections:
             widget: select
             options: ['kg', ' st', ' lb']
             default: 'kg'
+
+  - name: pages
+    label: Pages
+    format: yml
+    extension: yml
+    folder: data/pages/
+    create: true
+    slug: '{{title}}'
+    fields:
+      - label: Header
+        name: header
+        widget: image
+      - label: Title
+        name: title
+        widget: string
+      - label: Description
+        name: description
+        widget: string
+      - label: Layout
+        name: layout
+        widget: select
+        options: ['normal', ' new_school', ' parent']
+        default: ''
