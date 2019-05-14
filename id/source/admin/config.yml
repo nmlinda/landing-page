@@ -1,8 +1,8 @@
 backend:
   name: git-gateway
 
-media_folder: source/id/shared/images/uploads
-public_folder: id/shared/images/uploads
+media_folder: id/source/id/shared/images/uploads
+public_folder: id/source/shared/images/uploads
 
 collections:
   - name: content
@@ -10,7 +10,7 @@ collections:
     files:
       - name: about
         label: About
-        file: data/about.yml
+        file: id/source/data/about.yml
         fields:
           - label: Title
             name: title
@@ -30,7 +30,7 @@ collections:
   - name: settings
     label: Settings
     files:
-      - file: data/settings/navigation.yml
+      - file: id/source/data/settings/navigation.yml
         label: Navigation
         name: navigation
         fields:
@@ -40,7 +40,7 @@ collections:
             fields:
               - {label: Label, name: label, widget: string}
               - {label: Path, name: path, widget: string}
-      - file: data/settings/units.yml
+      - file: id/source/data/settings/units.yml
         label: Units
         name: units
         fields:
@@ -60,7 +60,7 @@ collections:
     label: Pages
     format: yml
     extension: yml
-    folder: data/pages/
+    folder: id/source/data/pages/
     create: true
     slug: '{{title}}'
     fields:
